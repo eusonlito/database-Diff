@@ -1,0 +1,21 @@
+{
+    "name": "eusonlito/database-diff",
+    "keywords": ["database", "diff", "mysql"],
+    "description": "Discover database differences from SQL files or Database dumps",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lito",
+            "email": "lito@eordes.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Database\\Diff\\": "src/Database/Diff/"
+        }
+    },
+    "minimum-stability": "dev"
+}
